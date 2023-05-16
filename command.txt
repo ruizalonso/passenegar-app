@@ -1,0 +1,4 @@
+docker compose up: levantar contenedor
+docker compose up -d mongo: levantar servicio de postgres en segundo plano
+docker compose up -d mongo-express: levantar servicio ui de postgres en segundo plano
+docker compose ps: ver los servicios en ejecución
